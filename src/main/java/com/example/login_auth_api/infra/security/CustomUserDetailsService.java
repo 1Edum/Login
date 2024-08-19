@@ -10,9 +10,6 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import com.example.login_auth_api.domain.User;
 import com.example.login_auth_api.repositoy.UserRepository;
 
-/**
- * CunstomUserDetailsService
- */
 public class CustomUserDetailsService implements UserDetailsService{
 
     @Autowired
